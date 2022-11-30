@@ -1,4 +1,6 @@
-package com.bennyplo.android_mooc_graphics_3d;
+package com.seuittrv.dancingrobot3d;
+
+import static org.junit.Assert.assertEquals;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -6,8 +8,6 @@ import android.support.test.runner.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.bennyplo.android_mooc_graphics_3d", appContext.getPackageName());
+        assertEquals("com.seuittrv.android_mooc_graphics_3d", appContext.getPackageName());
     }
 }
